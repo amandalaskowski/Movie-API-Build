@@ -1,7 +1,42 @@
-/*
-    home.css: This website contains selectors only used in home.css
+.div1 {
+  background-image: url(https://wallpaperaccess.com/full/2063931.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
 
-    All pages share the styles on index.css but you should create 
-    one more css for each page that will contain the selected used 
-    on that page only (the ones not reused in other pages).
-*/
+.div2 {
+  margin-top: 5%;
+  margin-bottom: 10%;
+  color: white;
+  font-family: "Roboto Mono", monospace;
+}
+
+.div3 {
+  color: white;
+  margin-top: 12%;
+}
+
+.card {
+  width: 25rem;
+  align-items: center;
+  background-color: #101010;
+  box-shadow: 2px 5px 15px 5px #383838;
+}
+
+.input-group {
+  width: 18rem;
+}
+
+.input-group-text {
+  height: 2.5rem;
+}
+
+.btn {
+  width: 18rem;
+  margin-top: 5%;
+}

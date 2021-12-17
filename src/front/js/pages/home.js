@@ -1,26 +1,37 @@
 import React, { useContext } from "react";
 import { Context } from "../store/appContext";
-import rigoImageUrl from "../../img/rigo-baby.jpg";
 import "../../styles/home.css";
 
 export const Home = () => {
-	const { store, actions } = useContext(Context);
-
-	return (
-		<div className="text-center mt-5">
-			<h1>Hello Rigo!!</h1>
-			<p>
-				<img src={rigoImageUrl} />
-			</p>
-			<div className="alert alert-info">
-				{store.message || "Loading message from the backend (make sure your python backend is running)..."}
-			</div>
-			<p>
-				This boilerplate comes with lots of documentation:{" "}
-				<a href="https://github.com/4GeeksAcademy/react-flask-hello/tree/95e0540bd1422249c3004f149825285118594325/docs">
-					Read documentation
-				</a>
-			</p>
-		</div>
-	);
+  return (
+    <div className="div1">
+      <div className="card">
+        <div className="div2">
+          <h1>Login</h1>
+        </div>
+        <div className="input-group mb-3">
+          <div className="input-group-prepend">
+            <span className="input-group-text" id="basic-addon1">
+              <i className="fas fa-user"></i>
+            </span>
+          </div>
+          <input type="text" className="form-control" placeholder="Email" />
+        </div>
+        <div className="input-group mb-3">
+          <div className="input-group-prepend">
+            <span className="input-group-text" id="basic-addon1">
+              <i className="fas fa-key"></i>
+            </span>
+          </div>
+          <input type="text" className="form-control" placeholder="Password" />
+        </div>
+        <button type="button" className="btn btn-secondary">
+          login
+        </button>
+        <div className="div3">
+          <p>Don't have an account? Message Amanda!</p>
+        </div>
+      </div>
+    </div>
+  );
 };
