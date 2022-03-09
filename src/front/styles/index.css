@@ -40,3 +40,51 @@
   width: 18rem;
   margin-top: 5%;
 }
+
+.homecontainer {
+  background-color: none;
+  width: 80%;
+  height: 550px;
+  display: inline-block;
+  justify-content: space-evenly;
+  display: flex;
+  margin: auto;
+}
+
+.homediv1 {
+  background-color: black;
+  width: 450px;
+  height: 100%;
+  display: inline-block;
+  border-style: solid;
+  border-color: grey;
+  border-width: 10px 10px 10px 10px;
+  border-radius: 25px;
+  margin-top: 8%;
+  box-shadow: 1px 10px 12px 5px rgba(0, 0, 0, 0.72);
+}
+
+.homeimg {
+  width: 425px;
+  height: 97%;
+  border-radius: 15px;
+  border-top: none;
+  margin-top: 5px;
+  margin-left: 3px;
+}
+
+.homebackground {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  height: 1090px;
+}
+
+.hometitle {
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+}
