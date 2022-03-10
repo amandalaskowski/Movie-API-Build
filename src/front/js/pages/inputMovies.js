@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
 
-export const inputMovies = () => {
-  return <h1>Hello</h1>;
+export const InputMovies = () => {
+  return <h1>Input Movies</h1>;
 };

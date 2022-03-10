@@ -5,8 +5,8 @@ import ScrollToTop from "./component/scrollToTop";
 import { Login } from "./pages/login";
 import { Home } from "./pages/home";
 import injectContext from "./store/appContext";
-import { inputMovies } from "./pages/inputMovies";
-import { searchMovies } from "./pages/searchMovies";
+import { InputMovies } from "./pages/inputMovies";
+import { SearchMovies } from "./pages/searchMovies";
 
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
@@ -33,10 +33,10 @@ const Layout = () => {
               <Login />
             </Route>
             <Route exact path="/input">
-              <inputMovies />
+              <InputMovies />
             </Route>
             <Route exact path="/search">
-              <searchMovies />
+              <SearchMovies />
             </Route>
             <Route>
               <h1>Not found!</h1>
